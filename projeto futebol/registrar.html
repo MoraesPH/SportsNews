@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/registrar.css">
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <title>Criar sua conta | SportsNews</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+           <div class="container">
+            <a href="SportsNews.html" class="navbar-brand">
+                <img src="img/logo.png" alt="" width="142px">
+            </a>
+            
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
+              <ul class="navbar-nav dropdown show" id="navbar">
+                <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a href="" class="nav-link">Times</a>
+                  <ul class="dropdown-menu item-drop">
+                    <li class="dropdown-item item-drop"><a href="#lakers">Los Angeles Lakers</a></li>
+                    <li class="dropdown-item item-drop"><a href="#fla">FLAMENGO</a></li>
+                    <li class="dropdown-item item-drop"><a href="#bra">Seleção Brasileira</a></li>
+                  </ul>
+                </li>
+                <ul class="dropdown show">
+                  <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="" class="nav-link">Competições</a>
+                    <ul class="dropdown-menu item-drop">
+                      <li class="dropdown-item item-drop"><a href="#copa">Copa do Mundo</a></li>
+                      <li class="dropdown-item item-drop"><a href="#champions">Champions League</a></li>
+                      <li class="dropdown-item item-drop"><a href="#brasileiro">Brasileirão</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="dropdown show">
+                  <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="" class="nav-link">Categorias</a>
+                    <ul class="dropdown-menu item-drop">
+                      <li class="dropdown-item item-drop"><a href="#fut">Futebol</a></li>
+                      <li class="dropdown-item item-drop"><a href="#basq">Basquete</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </ul>
+                    <form action="" class="ml-auto">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Buscar" id="">
+                            <div class="input-group-append">
+                                <button class="btn btn-success">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <span class="divisor ml-4">
+
+                    </span>
+                    <ul class="navbar-nav ml-2">
+                        <li class="nav-item ml-auto">
+                          <a href="login.html" class="btn btn-outline-light btn-dark ml-3">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="registrar.html" class="btn btn-outline-light ml-3">Registrar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+    </header>
+    <section class="mt-4">
+      <div class="container">
+          <div class="col-md-12">
+              <div class=" text-center text-white box d-flex justify-content-center flex-column align-items-center">
+                  <h2>Registrar-se</h2>
+                  <p>Registre-se para ter acesso as noticias mais resentes do mundo dos esportes</p>
+                  <form action="" class="col-md-4 align-self-center">
+                      <div class="form-group">
+                  
+                          <input class="form-control" type="nome" name="nome" id="nome" placeholder="Nome:">
+                      </div>
+                      <div class="form-group">
+                         
+                          <input class="form-control" type="email" name="email" id="email" placeholder="E-mail:">
+                      </div>
+                      <div class="form-group">
+                          
+                          <input class="form-control" type="password" name="senha" id="myInput" placeholder="Senha:ex sportsnews123">
+                      </div>
+                      <div class="form-group">
+                        <input type="checkbox" name="showPassword" onclick="myFunction()" id="showPassword">
+                        <label for="showPassword">Mostrar senha</label>
+                    </div>
+                      <div class="form-group">
+                        <input type="checkbox" name="condiçoes"  id="condiçoes" required>
+                        <label>Li e aceito os termos e condições</label>
+                    </div>
+                      
+
+                        <button class="btn btn-secondary">Enviar</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+  <footer class="mt-5 ">
+  <div class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-md-8">
+        <img id="logo-footer" src="img/logo.png">  
+      </div>
+
+      <div class="d-flex align-self-center col-md-4 justify-content-end">
+        <a href="" class="btn btn-outline-light">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="" class="btn btn-outline-light ml-2">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="" class="btn btn-outline-light ml-2">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a href="" class="btn btn-outline-light ml-2">
+          <i class="fab fa-whatsapp fa-lg"></i>
+        </a>
+        <a href="" class="btn btn-outline-light ml-2">
+          <i class="fab fa-telegram fa-lg"></i>
+        </a>
+        <a href="" class="btn btn-outline-light ml-2">
+          <i class="fab fa-discord fa-lg"></i>
+        </a>
+      </div>
+
+    </div>
+    <marquee class="text-white" direction="right">&copy; Copyright 2022 - SportsNews</marquee>
+  </div>
+  </footer>   
+  
+  <script src="showPassoword.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

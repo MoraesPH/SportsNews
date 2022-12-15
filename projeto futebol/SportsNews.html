@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags Obrigatórias -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        
+        <!-- Estilo customizado -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+        <!-- Fonte -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+      
+        <title>SportsNews</title>
+      </head>
+<body class="bg-secondary">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+           <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="" width="142px">
+            </a>
+            
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav-principal">
+              
+                <ul class="navbar-nav dropdown show" id="navbar">
+                  <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a href="" class="nav-link">Times</a>
+                    <ul class="dropdown-menu item-drop">
+                      <li class="dropdown-item item-drop"><a href="#lakers">Los Angeles Lakers</a></li>
+                      <li class="dropdown-item item-drop"><a href="#fla">Flamengo</a></li>
+                      <li class="dropdown-item item-drop"><a href="#brasil">Seleção Brasileira</a></li>
+                    </ul>
+                  </li>
+                  <ul class="dropdown show">
+                    <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a href="" class="nav-link">Competições</a>
+                      <ul class="dropdown-menu item-drop">
+                        <li class="dropdown-item item-drop"><a href="#copa">Copa do Mundo</a></li>
+                        <li class="dropdown-item item-drop"><a href="#champions">Champions League</a></li>
+                        <li class="dropdown-item item-drop"><a href="#brasileirao">Brasileirão</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="dropdown show">
+                    <li class="nav-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a href="" class="nav-link">Categorias</a>
+                      <ul class="dropdown-menu item-drop">
+                        <li class="dropdown-item item-drop"><a href="#futebol">Futebol</a></li>
+                        <li class="dropdown-item item-drop"><a href="#basquete">Basquete</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </ul>
+
+                <form action="" class="ml-auto">
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="Buscar" id="">
+                        <div class="input-group-append">
+                            <button class="btn btn-success">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+                <span class="divisor ml-4">
+
+                </span>
+                <ul class="navbar-nav ml-2">
+                    <li class="nav-item ml-auto">
+                      <a href="login.html" class="btn btn-outline-light btn-dark ml-3">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="registrar.html" class="btn btn-outline-light ml-3">Registrar</a>
+                    </li>
+                </ul>
+              </div>
+            </div> 
+        </nav>
+    </header>
+    <section id="noticias">
+        <div class="container-fluid" id="brasil">
+            <div class="text-center titulo" id="copa">
+              <h1>Copa do Mundo</h1>
+            </div>
+            <div class="row" id="noticia-grid-copa">
+              <div class="flip-box" id="noticia-principal-copa">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front" >
+                      <img src="img/NeyNey.jpg">
+                      <span class="titulo-noticia">Fracasso Brasileiro</span>
+                  </div>
+                  <div class="flip-box-back copa-principal">
+                    <img src="IMG/NeyNey.jpg" alt="">
+                    <div class="text">
+                      <h2 class="reportagem-copa">A Seleção Brasileira foi eliminada na fase de quartas-de-final da Copa do Mundo da Fifa de 2022, no Catar, perdendo na disputa de penalidades para a Seleção Croata de Futebol (em croata: “Hrvatski Nogometni Savez”), pelo placar agregado de 4 a 2, após o encerramento da partida pelo placar de 1 a 1. <br>
+                        O Brasil segue sendo o único país com 5 títulos do mundial, não podendo ser igualado ainda nesta edição, já que dentre as seleções com 4 títulos, a Alemanha ficou de fora da fase “mata-mata” e a Itália nem chegou a participar desta edição da Copa do Mundo.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div id="noticia-secundaria-copa">
+                  <a href="reportagem/cr7.html"><img src="img/cr7.jpg"></a>
+                </div>
+                <div id="noticia-tercearia-copa">
+                  <a href="reportagem/messi.html"><img src="img/messi.webp"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="noticias">
+        <div class="container-fluid">
+            <div class="text-center titulo" id="brasileirao">
+              <h1>Brasileirão</h1>
+            </div>
+            <div class="row" id="noticia-grid">
+                <div id="noticia-principal">
+
+                  <div id="carousel-controles" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+
+                      <div class="carousel-item active">
+                        <img src="img/pal.webp" class="img-fluid">
+                        <span class="titulo-noticia-brasileiro">Campeão Brasileiro 2022</span>
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="img/tabelas.png" class="img-fluid">
+                        <span class="titulo-noticia-brasileiro-2">Destaque do Verdão 2022</span>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/escudopal.jfif" class="img-fluid escudopal">
+                        <div class="carousel-caption">
+                          <p class="reportagem-pal">
+                            No Campeonato Brasileiro, abriu o campeonato perdendo para o Ceará em casa. Entretanto, 
+                            construiu uma sequência de doze partidas sem derrota, assumindo a liderança na oitava rodada, 
+                            após vitória contra o Santos, fora de casa. Na décima rodada, após vitória contra o Botafogo, 
+                            voltou ao topo da tabela, posição de onde manteria até o final do campeonato; na 35ª rodada, 
+                            após uma combinação de resultados, 
+                            o Alviverde garantiu matematicamente seu 11º título brasileiro de sua história.
+                            <br>
+                            <br>
+                            <br>
+                            Veiga tem 27 anos e defende o Alviverde desde 2017 (com passagem pelo Athletico Paranaense por empréstimo no caminho). 
+                            O meia-atacante tem 205 jogos ao todo, com 63 gols marcados. Foi também campeão da Copa do Brasil, 
+                            bicampeão da Libertadores e peça importante no título brasileiro de 2022. No ano de 2022, o meia atuou em 46 jogos marcou 19 gols e distribuiu 6 assistências.
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                    <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>
+
+                </div>
+
+                <div id="noticia-secundaria">
+                  <a href="reportagem/galo.html"><img src="img/galo.webp" id="fla"></a>
+                </div>
+                <div id="noticia-tercearia">
+                  <a href="reportagem/fla.html"><img src="img/flafla.webp"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="noticias">
+        <div class="container-fluid ">
+            <div class="text-center titulo" id="basquete">
+              <h1>Basquete</h1>
+            </div>
+            <div class="row" id="noticia-grid-basquete">
+              <div class="flip-box" id="noticia-principal-basquete">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front" id="lakers">
+                      <img src="img/lebron.webp">
+                      <span class="titulo-noticia-basquete">LeBron James é o primeiro jogador em atividade da NBA a se tornar bilionário</span>
+                  </div>
+                  <div class="flip-box-back-b copa-principal">
+                    <img src="IMG/lebron.webp" alt="">
+                    <div class="text">
+                      <h2 class="reportagem-basquete">
+                        O jogador do Los Angeles Lakers entrou na lista da Forbes como o primeiro jogador ativo da NBA a se tornar um bilionário. 
+                        Michael Jordan, o lendário atleta americano, é o único outro bilionário do basquete. A fortuna de LeBron vale US$ 1 bilhão (5,28 bilhões de reais nas cotações atuais) 
+                        e rendeu apenas US$ 121,2 milhões (639 milhões de reais) no ano passado. "Obviamente, este é o meu maior marco. 
+                        Quero maximizar meus negócios", disse James sobre a possibilidade de entrar na lista em uma entrevista de 2014 à GQ. 
+                         <br> LeBron é o jogador mais bem pago da liga e também ganha muito com comerciais e patrocínios de empresas como Nike (patrocínio vitalício), AT&T, Pepsi e Walmart. Desde 2015, 
+                        ele assumiu participações em grandes marcas, incluindo a fabricante de academias inteligentes Tonal e a gigante do compartilhamento de caronas Lyft, além de fundar a produtora de TV e cinema SpringHill, que produziu "Space Jam 2", estrelado por LeBron.
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="noticia-secundaria-basquete">
+                <a href="reportagem/morant.html"><img src="img/kobe.webp"></a>
+              </div>
+              <div id="noticia-tercearia-basquete">
+                <a href="reportagem/curry.html"><img src="img/curry.jfif"></a>
+              </div>
+            </div>
+        </div>
+    </section>
+      <footer class="mt-4">
+        <div class="container-fluid bg-dark">
+          <div class="row">
+            <div class="col-md-8">
+              <img id="logo-footer" src="img/logo.png">  
+            </div>
+
+            <div class="d-flex align-self-center col-md-4 justify-content-end">
+              <a href="" class="btn btn-outline-light">
+                <i class="fab fa-facebook fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light ml-2">
+                <i class="fab fa-instagram fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light ml-2">
+                <i class="fab fa-twitter fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light ml-2">
+                <i class="fab fa-whatsapp fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light ml-2">
+                <i class="fab fa-telegram fa-lg"></i>
+              </a>
+              <a href="" class="btn btn-outline-light ml-2">
+                <i class="fab fa-discord fa-lg"></i>
+              </a>
+            </div>
+
+          </div>
+          <marquee class="text-white" direction="right">&copy; Copyright 2022 - SportsNews</marquee>
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</body>
+</html>

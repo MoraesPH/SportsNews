@@ -1,0 +1,360 @@
+#nav-principal #navbar li a{
+    color: #42FF00;
+}
+
+span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #bbb;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.item-drop{
+    background-color: #343a40;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid #76c45aa9;
+}
+
+.item-drop a {
+    color: #42FF00 !important;
+}
+
+.item-drop a:hover{
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+}
+
+#login{
+    color: white;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.divisor{
+    width: 1px;
+    background: #42FF00;
+    height: 40px;
+}
+
+.flip-box {
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    transition: transform 0.8s ease-in-out;
+    text-align: center;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    border-radius: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #bbb;
+    border-radius: 20px;
+    color: black;
+}
+
+.flip-box-back {
+    color: white;
+    height: 610px;
+    transform: rotateY(180deg);
+}
+
+/* Inicio COPA */
+
+#noticia-grid-copa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+}
+
+.reportagem-copa{
+    font-size: 30px;
+}
+
+#noticia-grid-copa img {
+    border-radius: 20px;
+}
+
+#noticia-grid-copa #noticia-principal img{
+    height: 610px;
+}
+
+#noticia-secundaria-copa, #noticia-tercearia-copa {
+    margin-left: 50px;
+}
+
+.titulo {
+    color: #42FF00;
+    text-shadow: 3px 3px 3px black;
+}
+
+
+.titulo-noticia {
+    position: absolute;
+    margin: 485px 0 0 -525px;
+    color: #42FF00;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    background: rgba(37, 37, 37, 0.5);
+    padding: 10px;
+}
+
+.copa-principal img{
+    filter: blur(3px);
+}
+
+.copa-principal>div {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 2px solid #f1f1f1;
+    border-radius: 20px;
+}
+
+#noticia-grid-copa {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'secundaria principal principal principal principal principal principal principal principal principal principal principal'
+    'tercearia principal principal principal principal principal principal principal principal principal principal principal'
+    ;
+}
+
+#noticia-principal-copa {
+    grid-area: principal;
+}
+
+#noticia-secundaria-copa {
+    grid-area: secundaria;
+}
+
+#noticia-tercearia-copa {
+    grid-area: tercearia;
+}
+
+/* Fim COPA */
+
+/* Inicio Futebol */
+
+#noticia-grid #noticia-principal img{
+    height: 610px;
+    margin-left: 50px;
+}
+
+#noticia-principal {
+    grid-area: principal;
+}
+
+#noticia-secundaria {
+    grid-area: secundaria;
+}
+
+#noticia-tercearia {
+    grid-area: tercearia;
+}
+
+#noticia-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#noticia-grid img {
+    border-radius: 20px;
+}
+
+.titulo {
+    color: #42FF00;
+}
+
+.titulo-noticia-brasileiro {
+    position: absolute;
+    margin: 515px 0 0 -600px;
+    color: #42FF00;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    background: rgba(37, 37, 37, 0.5);
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.titulo-noticia-brasileiro-2{
+    position: absolute;
+    margin: 515px 0 0 -560px;
+    color: #42FF00;
+    text-shadow: 3px 3px 3px black;
+    font-size: 2.5rem;
+    background: rgba(37, 37, 37, 0.5);
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.escudopal{
+    filter: blur(5px);
+}
+
+.reportagem-brasileirao{
+    position: absolute;
+    margin: 515px 0 0 -600px;
+    color: #42FF00;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    background: rgba(37, 37, 37, 0.5);
+    padding: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.reportagem-pal {
+    padding: 10px;
+    color: black;
+    text-shadow: 1px 1px 1px white;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 20px;
+    background: rgba(16, 75, 44, 0.5);
+}
+
+#noticia-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'principal secundaria'
+    'principal tercearia'
+    ;
+}
+
+#noticia-grid #noticia-principal img{
+    height: 610px;
+    margin-left: 50px;
+}
+
+#noticia-principal {
+    grid-area: principal;
+}
+
+#noticia-secundaria {
+    grid-area: secundaria;
+}
+
+#noticia-tercearia {
+    grid-area: tercearia;
+}
+
+/* Fim Futebol */
+
+/* Inicio Basquete */
+
+#noticia-grid-basquete {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'secundaria principal principal principal principal principal principal principal principal principal principal principal principal principal'
+    'tercearia principal principal principal principal principal principal principal principal principal principal principal principal principal'
+    ;
+}
+
+.titulo-noticia-basquete {
+    position: absolute;
+    margin: 475px 80px 0 -500px;
+    color: #42FF00;
+    text-shadow: 5px 5px 5px black;
+    font-size: 1.5rem;
+    background: rgba(37, 37, 37, 0.5);
+    box-shadow: 5px 5px 5px black;
+}
+
+.reportagem-basquete{
+    font-size: 24px;
+}
+
+#noticia-principal-basquete {
+    grid-area: principal;
+}
+
+#noticia-secundaria-basquete {
+    grid-area: secundaria;
+}
+
+#noticia-tercearia-basquete {
+    grid-area: tercearia;
+}
+
+#noticia-grid-basquete #noticia-principal-basquete img {
+    height: 610px;  
+}
+
+#noticia-secundaria-basquete, #noticia-tercearia-basquete {
+    margin-left: 50px;
+}
+
+#noticia-grid-basquete img {
+    border-radius: 20px;
+}
+
+#noticia-grid-basquete {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flip-box-front, .flip-box-back-b {
+    position: absolute;
+    border-radius: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-back-b {
+    color: white;
+    height: 610px;
+    margin-left: 30px;
+    transform: rotateY(180deg);
+}
+
+
+/* Fim Basquete */
+
+#logo-footer {
+    height: 75px;
+}
+
+.box-noticia {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    color: white;
+    margin-top: 1rem;
+    font-size: 18px;
+    text-indent: 15px;
+    font-weight: bold;
+    background-color: rgba(0,0,0, 0.4);
+}
